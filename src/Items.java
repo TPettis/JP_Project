@@ -1,30 +1,30 @@
+/*
+ * Tim Pettis
+ * JP_Project Alpha
+ */
+
 import java.util.Date;
 import sun.misc.VM;
 
 //Create interface of items
 public interface Items {
-  String manufacturer = "OracleProduction";
-  void setProductionNumber(int proNum);
-  void setName(String name);
-  String getName();
-  Date getManufactureDate();
-  int getSerialNumber();
-}
 
-//Create enum of item types
-public enum ItemType {
-  Audio (AU),
-  Visual (VI),
-  AudioMobile (AM),
-  VisualMobile (VM);
+  //A constant called manufacturer that would be set to “OracleProduction”.
+  final String manufacturer = "OracleProduction";
 
-  private final String Code;
+  //A method that has one integer parameter
+  public void setProductionNumber(int proNum);
 
-  ItemType (String code){
-    this.Code = code;
-  }
-  private String Code(){
-    return Code;
-  }
+  //A method that has one String parameter
+  public void setName(String name);
+
+  //A method that returns a String
+  public String getName();
+
+  //A method that returns a Date
+  public Date getManufactureDate();
+
+  //A method that returns an int
+  public int getSerialNumber();
 
 }

@@ -1,12 +1,12 @@
-//Tim Pettis
-//JP_Project
+/*
+ * Tim Pettis
+ * JP_Project Alpha
+ */
+
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+  //Main method
+  public static void main(String[] args) {
+    System.out.println(ItemType.AUDIO.getCode());
+  }
 }
-
-/*
-class TV implements Item{}
- */
