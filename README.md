@@ -1,5 +1,9 @@
 <<< JP PROJECT >>>
+<<<<<<< HEAD
 <<< Tim Pettis >>>
+=======
+ >> Tim Pettis <<
+>>>>>>> github/master
 
 OracleProduction Ltd are specialists in producing production line manufacturing plants.
 
